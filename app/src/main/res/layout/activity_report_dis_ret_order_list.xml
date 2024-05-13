@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/purple_500">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ivBack"
+            android:text="Report_DIS_retOrderList"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlHeader"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_shape"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search by Member Id..">
+
+    </SearchView>
+    <RelativeLayout   android:layout_below="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/norecord_img"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:src="@drawable/norecord"
+            android:layout_height="wrap_content">
+        </ImageView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcvMemberLoanDetails"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

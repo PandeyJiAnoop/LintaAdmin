@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:layout_weight="1"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:gravity="center"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+
+                android:textAllCaps="true"
+                android:text="Sr.No."
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:textStyle="bold"
+                android:id="@+id/tv"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/red"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="RegId"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Employee Name"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Status"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:id="@+id/tv3"
+
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:id="@+id/tv4"
+
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Entry Date"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:id="@+id/tv5"
+
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Contact No"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="GSTIN"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/tv7"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Aadhar No."
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/tv8"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Pan No."
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/tv9"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Type"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/tv10"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Constituency"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/tv11"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="true"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <View
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:id="@+id/tv12"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/text_grey"
+            android:layout_height="4dp">
+
+
+        </View>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LintaPipes Admin</string>
+    <string name="name">Linta Pipes Admin</string>
+
+    <string-array name="array_name">
+        <item>Default</item>
+        <item>SP</item>
+        <item>DPT</item>
+        <item>CP</item>
+        <item>SP Motors</item>
+        <item>DP Motors</item>
+
+        <item>SP Common</item>
+        <item>DPT Common</item>
+        <item>PANA Family</item>
+        <item>CHT 30</item>
+        <item>CHT 40</item>
+        <item>CHT 70</item>
+    </string-array>
+
+    <string-array name="array_status">
+        <item>Active</item>
+        <item>InActive</item>
+    </string-array>
+
+    <string-array name="typer">
+        <item>Select Status</item>
+        <item>Interested</item>
+        <item>Not Interested</item>
+        <item>May be Later</item>
+    </string-array>
+
+    <string name="newVersion">Update to the latest Version</string>
+    <string name="update">Update</string>
+
+
+</resources>
